@@ -1,0 +1,80 @@
+@keyframes hover {
+    0% {
+        opacity: 0;
+        bottom: 190px;
+    }
+    50% {
+        bottom:200px;
+    }
+    100% {
+        opacity: 1;
+        bottom: 190px;
+    }
+}
+
+.fossil1 {
+    width: 100px;
+    height: 100px;
+    animation-name: hover;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+}
+.fossil1:hover {
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+.fossil1:active {
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+.fossil1:focus {
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+.fossil2 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    animation-name: hover;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+}
+.fossil2:hover {
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+.fossil2:active {
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+.fossil2:focus {
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+.fossil3 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: last baseline;
+    animation-name: hover;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+}
+.fossil3:hover {
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+.fossil3:active {
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+.fossil3:focus {
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
